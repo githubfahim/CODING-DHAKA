@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(234, 234, 234);
+}
+
+.main-box{
+    height: 580px;
+    width: 400px;
+    /* box-shadow: 0px 0px 7px 1px rgba(168,168,168,1); */
+    box-shadow: rgb(255, 255, 255) -3px -3px 7px, rgb(206, 206, 209) 3px 3px 3px;
+    border-radius: 12px;
+}
+
+.top-icon{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.top-icon i{
+    font-size: 30px;
+    padding: 22px;
+}
+
+.image-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imgs{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.imgs img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.white-box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: rgb(255, 255, 255) -3px -3px 7px, rgb(206, 206, 209) 3px 3px 3px;
+}
+
+.frist-title{
+    display: flex;
+    justify-content: center;
+}
+
+.frist-title p{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.last-title{
+    display: flex;
+    justify-content: center;
+}
+
+.last-title p{
+    font-size: 22px;
+    margin-top: 6px;
+}
+
+.link-icons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.link-icons i{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    margin-top: 30px;
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 50%;
+    box-shadow: rgb(255, 255, 255) -3px -3px 7px, rgb(206, 206, 209) 3px 3px 3px;
+}
+
+.msg-sub{
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 20px;
+}
+
+.msg-sub button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgb(255, 255, 255) -3px -3px 7px, rgb(206, 206, 209) 3px 3px 3px;
+    font-size: 18px;
+}
+
+.love-coment-shere{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.space{
+    display: flex;
+    margin: 0px 20px;
+    padding: 12px;
+}
+
+.space i{
+    font-size: 22px;
+}
+
+/* icons color css  */
+
+.fa-facebook-f{
+    color: #3B5998 ;
+}
+
+.fa-twitter{
+    color: #00ACEE;
+}
+
+.fa-instagram{
+    color: #b14ec8;
+}
+
+.fa-youtube{
+    color: #c4302b;
+}
